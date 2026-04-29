@@ -1,0 +1,44 @@
+http://127.0.0.1:8000/docs
+
+python -m uvicorn main:app --reload
+
+NOT SURVIVED
+{
+  "Pclass": 3,
+  "Age": 35,
+  "Fare": 10,
+  "FamilySize": 1,
+  "IsAlone": 1,
+  "Sex_male": 1,
+  "Embarked_S": 1,
+  "Embarked_Q": 0,
+  "AgeBand_Teen": 0,
+  "AgeBand_YoungAdult": 0,
+  "AgeBand_Adult": 1,
+  "AgeBand_Senior": 0,
+  "FareBand_Medium": 0,
+  "FareBand_High": 0,
+  "FareBand_VeryHigh": 0
+}
+
+SURVIVED
+
+👉 Paste this:
+
+{
+  "Pclass": 1,
+  "Age": 22,
+  "Fare": 120,
+  "FamilySize": 1,
+  "IsAlone": 1,
+  "Sex_male": 0,
+  "Embarked_S": 1,
+  "Embarked_Q": 0,
+  "AgeBand_Teen": 0,
+  "AgeBand_YoungAdult": 1,
+  "AgeBand_Adult": 0,
+  "AgeBand_Senior": 0,
+  "FareBand_Medium": 0,
+  "FareBand_High": 0,
+  "FareBand_VeryHigh": 1
+}
